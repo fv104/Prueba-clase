@@ -1,5 +1,5 @@
 
-console.log(1);
+/*console.log(1);
 
 console.log('1');
 
@@ -8,7 +8,7 @@ console.log(true);
 //var miVariable;
 //console.log(miVariable);
 
-/*
+
 console.log({
     name: 'Felix',
     bool: true,
@@ -25,8 +25,8 @@ var miObjeto = {
 console.log(miObjeto);
 console.log(miObjeto.name);
 console.log(miObjeto['bool']);
-*/
-/*
+
+
 var arr = new Array(1,2,3,'Hola');
 var arr2 = [1,2,3,'Hola'];
 
@@ -52,10 +52,44 @@ console.log(false && true); //false
 console.log(false && false);//false
 console.log(true && true);
 console.log(true && false);
-*/
+
 console.log(!!'a');
 
 var asignar = true;
 
 var miVariable = asignar && 'Funciona';
 console.log(miVariable);
+*/
+
+/*console.log(typeof(1));
+console.log(typeof(true));
+console.log(typeof([])), typeof [];
+
+function miFuncion() {
+    this.
+}
+class miClase{};
+console.log('instanceOf ->', instanciaFuncion instanceof miFuncion)
+var instanciaFuncion = new miFuncion();
+console.log(typeof(miClase), typeof miFuncion );*/
+
+
+var a = 'a';
+var miArr = [1,2,3];
+var obj = {
+    a: 'a',
+    b: 'b'
+}
+console.log('a' in obj)
+delete a;
+
+delete miArr[1];
+delete obj.a;
+console.log('a' in obj)
+
+console.log(a);
+console.log(miArr);
+console.log(obj);
+
+
+//console.log(void true );
