@@ -20,22 +20,34 @@ if(15 === resultado){
     console.log('Resultado es 15')
 }*/
 
-var resultado = 101
+/*var resultado = 100
 
+switch (resultado + 1) {
+    case 'hola':
+        console.log(resultado)
+        break;
+    case 100:
+        console.log(typeof resultado);
+        break;
+    default:
+        console.log('Default');
+}
+//var x = resultado ? 'Verdadero' : 'Falso';
+//console.log(x);
 //Si es menor que 10
 //Si es mayor que 10 y menor que 25 incluido
 //Si es mayor que 25 pero menor que 100 incluido
 //El resto de casos
 
 //Si es menor que 10
-if(10 > resultado){
+/!*if(10 > resultado){
     console.log('El resultado es menor que 10');
-}else if(10 <= resultado && 25 >= resultado){
+}   else if(25 >= resultado){
     console.log('El resultado es mayor que 10 pero menor que 25')
-}else if(25 < resultado && 100 >= resultado){
+}   else if(100 >= resultado){
     console.log('El resultado es mayor que 25 pero menor que 100')
-}else{
+}   else{
     console.log('El resultado es mayor que 100')
 
-}
+}*!/*/
 
